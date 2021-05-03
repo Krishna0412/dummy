@@ -29,7 +29,7 @@
                  <extensions>true</extensions>
                 <configuration>
                     <serverId>nexus</serverId>
-                    <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+                    <nexusUrl>http://localhost:8091/nexus/</nexusUrl>
                     <skipStaging>true</skipStaging>
                 </configuration>
                 <executions>
@@ -94,9 +94,9 @@
 	</build>
 	<distributionManagement>
         <snapshotRepository>
-          <id>dummy</id>
-          <name>dummy</name>
-          <url>http://localhost:8081/repository/Dummy/</url>
+          <id>Dummy</id>
+          <name>Dummy</name>
+          <url>http://localhost:8091/repository/Dummy/</url>
         </snapshotRepository>
      </distributionManagement>
 
